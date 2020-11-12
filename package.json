@@ -1,0 +1,37 @@
+{
+  "name": "convert-action",
+  "version": "0.0.1",
+  "description": "Update the runs.using and runs.main fields in a GitHub Actions action.yml file",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mheap/convert-action.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "CI"
+  ],
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mheap/convert-action/issues"
+  },
+  "homepage": "https://github.com/mheap/convert-action#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0"
+  },
+  "bin": {
+    "convert-action": "./bin.js"
+  },
+  "files": [
+    "bin.js",
+    "index.js"
+  ]
+}
