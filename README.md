@@ -4,7 +4,7 @@ This is a single purpose CLI that rewrites the `runs` section in a GitHub Action
 
 ```yaml
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
 ```
 
