@@ -1,6 +1,6 @@
 {
   "name": "convert-action",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Update the runs.using and runs.main fields in a GitHub Actions action.yml file",
   "main": "index.js",
   "scripts": {
