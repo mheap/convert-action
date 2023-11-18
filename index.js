@@ -16,7 +16,7 @@ module.exports = function (main, filename) {
 
     // Overwrite the existing fields
     config.runs = {
-      using: "node16",
+      using: "node20",
       main,
     };
 
