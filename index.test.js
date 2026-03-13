@@ -44,7 +44,7 @@ test("success (default main)", () => {
 
   const expected = `name: Test Action
 runs:
-  using: node20
+  using: node24
   main: dist/index.js
 `;
 
@@ -57,7 +57,7 @@ test("success (specified main)", () => {
   mockActionYaml();
   const expected = `name: Test Action
 runs:
-  using: node20
+  using: node24
   main: index.dist.js
 `;
 
